@@ -1,0 +1,57 @@
+import React, { Component } from "react";
+import axios from "axios";
+import ModalVideo from "react-modal-video";
+import { API_KEY, VIDEO_LINK } from "../apiKeys";
+import { Button } from "react-bootstrap";
+import FontAwesome from "react-fontawesome";
+
+/* eslint-disable */
+
+class Modal extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isOpen: false,
+            videoID: ""
+        };
+        this.openModal = this.openModal.bind(this);
+    }
+
+    componentWillMount() {
+        const id = this.props.modal;
+        const url = `${VIDEO_LINK}${id}/videos${API_KEY}`;
+        axios.get(url).then(response => {
+            this.setState({ videoID: response.data.results[0].key });
+        });
+    }
+    openModal() {
+        this.setState({ isOpen: true });
+    }
+
+    render() {
+        let videoID;
+        if (this.state.videoID !== "") {
+            videoID = this.state.videoID;
+        }
+
+        return (
+            <div className="play-list">
+                <ModalVideo
+                    channel="youtube"
+                    isOpen={this.state.isOpen}
+                    videoId={videoID}
+                    onClose={() => this.setState({ isOpen: false })}
+                    allowFullScreen="true"
+                    ratio='16:9'
+                />
+                {/* <li className="col-m-4" onClick={this.openModal}>
+                    <Button className="green"  > Play Trailer </Button>
+                </li> */}
+                <Button variant="outlined" className="btnTrailer" onClick={this.openModal} ><FontAwesome className="fa-play" />&nbsp; Play Trailer</Button>
+
+            </div>
+        );
+    }
+}
+
+export default Modal;

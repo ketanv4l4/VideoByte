@@ -1,0 +1,268 @@
+
+.logo{
+    width: 250px;
+    height: 70px;
+    padding: 0px ;
+}
+.header{
+    border-bottom: 1px solid rgb(95, 228, 95);
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+ 
+}
+/* .MovieCard{
+    animation: animateMovieinfo 1s;
+}
+
+@keyframes animateMovieinfo {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+} */
+
+.popular{
+    margin-top: 20px;
+    
+}
+
+.card{
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    flex: 0 0 240px;
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow:
+      rgba(black, 0.66) 0 30px 60px 0,
+      inset rgb(150, 145, 145) 0 0 0 5px,
+      inset rgba(white, 0.5) 0 0 0 6px;
+  
+
+}
+
+.cardimg{
+    height: auto;
+    margin: auto;
+}
+.cardtitle{
+    font-size: 30px;
+}
+.carddate{
+    font-size: medium;
+}
+
+.footer{
+    font-size: 15px;
+    color: #fff;
+    border-top: 1px solid rgb(95, 228, 95);
+    /* margin-top: 10px; */
+    /* position: fixed; */
+}
+.footer p{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 ;
+    margin: 0;
+    margin-top: 10px;
+
+
+}
+.hovereffect {
+    width:100%;
+    /* height:100%; */
+    /* float:left; */
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:pointer;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+    /* display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    flex: 0 0 240px;
+    background-color: #333;
+    overflow: hidden; */
+    border-radius: 20px;
+    box-shadow:
+      rgba(black, 0.66) 0 30px 60px 0,
+      inset rgb(150, 145, 145) 0 0 0 5px,
+      inset rgba(white, 0.5) 0 0 0 6px;
+}
+.movieimg{
+    width: 100%;
+}
+.hovereffect .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out
+    }
+    
+.hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+    width:100%;
+    }
+    
+.hovereffect h2 {
+    text-transform:uppercase;
+    color:#fff;
+    text-align:center;
+    position:relative;
+    font-size:18px;
+    background:rgba(0,0,0,0.7);
+    -webkit-transform:translatey(-100px);
+    -ms-transform:translatey(-100px);
+    transform:translatey(-100px);
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    padding:10px;
+    font-weight: bolder;
+}
+.hovereffect span {
+    color: rgb(95, 228, 95);
+    font-size:13px;
+    position:relative;
+    padding:15px;
+    text-align:center;
+    position:relative;
+
+} 
+.hovereffect:hover{
+    border: 3px solid rgb(95, 228, 95);
+
+}     
+.hovereffect:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+ }
+    
+.hovereffect:hover .overlay {
+    opacity:1;
+    filter:alpha(opacity=200);
+    }
+    
+ .hovereffect:hover h2 {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translatey(0);
+    -webkit-transform:translatey(0);
+    transform:translatey(0);
+}
+.detailmoviecard{
+    padding: 20px 40px;
+    height: 80%;
+}
+.main-box {
+    top: 0;
+    height: 80% !important;
+}
+.img-box img {
+    height: 70%;
+
+}
+.content-box{
+    color: rgb(95, 228, 95);
+}
+
+
+
+/* card */
+
+/* .movie_card{
+    position: relative;
+  display: block;
+  width: 800px;
+  height: 350px;
+  margin: 100px auto; 
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.movie_card:hover{
+    transform: scale(1.02);
+    transition: all 0.4s;
+}
+.info_section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+	background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+}
+.info_section .movie_header{
+    position: relative;
+    padding: 25px;
+    height: 40%;
+}
+.info_section .movie_header h1{
+    color: #fff;
+    font-weight: 400;
+}
+.info_section .movie_header h4{
+    color: #9ac7fa;
+    font-weight: 400;
+}
+.info_section .movie_header .minutes{
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.13);
+  } */
+  .rmdb-navigation {
+    width: 100%;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 10px;
+    border: 2px solid #000;
+  }
+  
+  .rmdb-navigation-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 10px;
+  
+  }
+  
+  .rmdb-navigation-content p {
+    /* font-family: 'Abel', sans-serif; */
+    font-size: 20px;
+    float: left;
+    color: #fff;
+    padding-right: 10px;
+    text-decoration: none;
+    margin: 0;
+  }

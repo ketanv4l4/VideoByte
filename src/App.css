@@ -1,0 +1,19 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif ;
+  box-sizing: border-box;
+  /* background: linear-gradient(45deg,rgb(255, 98, 98),rgb(42, 255, 220)); */
+}
+.App{
+  margin: 0 auto;
+  padding: 20px;
+  justify-items: center;
+  /* min-height: 700px; */
+  /* max-width: 1300px; */
+  /* background: linear-gradient(); */
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  /* background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%); */
+  background-image: linear-gradient(to right, #050101 0%, black 100%);
+}

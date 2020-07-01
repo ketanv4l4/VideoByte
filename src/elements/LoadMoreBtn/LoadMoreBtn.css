@@ -1,0 +1,41 @@
+.loadmorebtn {
+  font-size: 20px;
+
+}
+
+.rmdb-loadmorebtn p {
+  /* font-family: 'Abel', sans-serif; */
+  font-size:20px;
+  padding: 10px;
+  margin-top: 10px;
+ 
+}
+
+.rmdb-loadmorebtn:hover {
+  background: rgb(95, 228, 95);
+  opacity: 0.8;
+}
+.LoadMoreBtn{
+  text-align: center;
+}
+.btnTrailer{
+  color: #fff;
+  border:2px solid #fff;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  /* height:50px; */
+  /* padding: 10px 10px; */
+
+}
+.btnTrailer:hover{
+  color: #000;
+  background: rgb(95, 228, 95);
+  border:3px solid #fff;
+
+}
+.btnTrailer:hover .fa-play {
+  color: black;
+}
