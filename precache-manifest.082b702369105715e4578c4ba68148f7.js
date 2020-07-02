@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef5e9ae4380364ee17785ce63ca79b0f",
+    "revision": "7c3d579189e49af45da025b3176c0c7c",
     "url": "/VideoByte/index.html"
   },
   {
-    "revision": "1eddec3ebf8f15ae5125",
+    "revision": "13753711a5985144edd1",
     "url": "/VideoByte/static/css/2.391535f3.chunk.css"
   },
   {
-    "revision": "e491e0e21c1b88b81ff3",
+    "revision": "15e81da2e31e7ff821c1",
     "url": "/VideoByte/static/css/main.41c72521.chunk.css"
   },
   {
-    "revision": "1eddec3ebf8f15ae5125",
-    "url": "/VideoByte/static/js/2.5cbe5139.chunk.js"
+    "revision": "13753711a5985144edd1",
+    "url": "/VideoByte/static/js/2.6d2e33cb.chunk.js"
   },
   {
     "revision": "3e29c63d6604a2ce25060baeca6e6672",
-    "url": "/VideoByte/static/js/2.5cbe5139.chunk.js.LICENSE.txt"
+    "url": "/VideoByte/static/js/2.6d2e33cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e491e0e21c1b88b81ff3",
-    "url": "/VideoByte/static/js/main.d3fc3874.chunk.js"
+    "revision": "15e81da2e31e7ff821c1",
+    "url": "/VideoByte/static/js/main.589e9624.chunk.js"
   },
   {
     "revision": "1e70b80ba032c6a5efaf",
