@@ -2,11 +2,7 @@
   "name": "videobyte",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ketanvala7.github.io/VideoByte/",
-  "engines": {
-    "npm": "6.14.5",
-    "node": "12.18.1"
-  },
+  "homepage": "http://ketanvala7.github.io/VideoByte",
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "@testing-library/jest-dom": "^4.2.4",
