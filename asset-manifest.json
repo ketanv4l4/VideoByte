@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/VideoByte/static/css/main.e8cd96cf.chunk.css",
-    "main.js": "/VideoByte/static/js/main.6ac678b4.chunk.js",
-    "main.js.map": "/VideoByte/static/js/main.6ac678b4.chunk.js.map",
-    "runtime-main.js": "/VideoByte/static/js/runtime-main.ea852680.js",
-    "runtime-main.js.map": "/VideoByte/static/js/runtime-main.ea852680.js.map",
-    "static/css/2.391535f3.chunk.css": "/VideoByte/static/css/2.391535f3.chunk.css",
-    "static/js/2.5cbe5139.chunk.js": "/VideoByte/static/js/2.5cbe5139.chunk.js",
-    "static/js/2.5cbe5139.chunk.js.map": "/VideoByte/static/js/2.5cbe5139.chunk.js.map",
-    "index.html": "/VideoByte/index.html",
-    "precache-manifest.0a505b07a31f1379c7f831dab2f5f54f.js": "/VideoByte/precache-manifest.0a505b07a31f1379c7f831dab2f5f54f.js",
-    "service-worker.js": "/VideoByte/service-worker.js",
-    "static/css/2.391535f3.chunk.css.map": "/VideoByte/static/css/2.391535f3.chunk.css.map",
-    "static/css/main.e8cd96cf.chunk.css.map": "/VideoByte/static/css/main.e8cd96cf.chunk.css.map",
-    "static/js/2.5cbe5139.chunk.js.LICENSE.txt": "/VideoByte/static/js/2.5cbe5139.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/VideoByte/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/static/css/main.41c72521.chunk.css",
+    "main.js": "/static/js/main.c82efb04.chunk.js",
+    "main.js.map": "/static/js/main.c82efb04.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aed51bab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aed51bab.js.map",
+    "static/css/2.f45f771f.chunk.css": "/static/css/2.f45f771f.chunk.css",
+    "static/js/2.5cbe5139.chunk.js": "/static/js/2.5cbe5139.chunk.js",
+    "static/js/2.5cbe5139.chunk.js.map": "/static/js/2.5cbe5139.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4773b47cf4f4c4523e1201b16eed1565.js": "/precache-manifest.4773b47cf4f4c4523e1201b16eed1565.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f45f771f.chunk.css.map": "/static/css/2.f45f771f.chunk.css.map",
+    "static/css/main.41c72521.chunk.css.map": "/static/css/main.41c72521.chunk.css.map",
+    "static/js/2.5cbe5139.chunk.js.LICENSE.txt": "/static/js/2.5cbe5139.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea852680.js",
-    "static/css/2.391535f3.chunk.css",
+    "static/js/runtime-main.aed51bab.js",
+    "static/css/2.f45f771f.chunk.css",
     "static/js/2.5cbe5139.chunk.js",
-    "static/css/main.e8cd96cf.chunk.css",
-    "static/js/main.6ac678b4.chunk.js"
+    "static/css/main.41c72521.chunk.css",
+    "static/js/main.c82efb04.chunk.js"
   ]
 }
