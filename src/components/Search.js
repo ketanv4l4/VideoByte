@@ -14,7 +14,7 @@ class Search extends Component {
         <Grid container>
           <Grid item xs={4}>
             <Link to="/">
-            <img src="./img/videobyte.png" alt="logo" className="logo"></img>
+              <img src="./img/logo.png" alt="logo" className="logo"></img>
             </Link>
           </Grid>
           {/* <Grid item xs={8}>
