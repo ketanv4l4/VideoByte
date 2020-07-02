@@ -26,12 +26,6 @@ class popularMovies extends Component {
   render() {
     return (
       <div className="popular">
-        {/* <SearchBar /> */}
-        {/* {this.state.movies.map((movies, i) => {
-          return (
-            <MovieCard key={i} movie={movies} />
-          );}
-        )} */}
         <MovieCard />
       </div>
     );
