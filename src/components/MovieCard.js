@@ -57,29 +57,9 @@ class MovieCard extends Component {
     }
   };
 
-  loadMoreItems = () => {
-    // let endpoint = "";
-    // this.setState({
-    //   loading: true
-    // });
-    // axios.get(`${URL_DETAIL}popular${API_KEY}&language=en-US&page=${this.state.currentPage + 1}`)
-    //   .then((res) => {
-    //     this.setState({ results: res.data.results });
-    //   });
-
-    // if (this.state.searchTerm === "") {
-    //   endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=${this
-    //     .state.currentPage + 1}`;
-    // } else {
-    //   endpoint = `${API_URL}search/movie?api_key=${API_KEY}&language=en-US&query${
-    //     this.state.searchTerm
-    //     }$page=${this.state.currentPage + 1}`;
-    // }
-    // this.fetchItems(endpoint);
-  };
+ 
 
   render() {
-    // console.log(this.state.results)
 
     return (
       <div className="MovieCard">
@@ -90,7 +70,7 @@ class MovieCard extends Component {
             <Col lg={3} sm={4} xs={6} key={movie.id}>
               <Link to={`/movie/${movie.id}`}>
                 <Card className="hovereffect" style={{ border: " 2px solid rgb(95, 228, 95)" }} >
-                  <Card.Img className="movieimg" variant="top" src={movie.poster_path  ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : "./img/No_img.png"} />
+                  <Card.Img className="movieimg" variant="top" src={movie.poster_path  ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : "./img/noimg.png"} />
                   <div className="overlay">
                     <h2 >{movie.title}<br></br><span>{movie.release_date}</span></h2>
                   </div>
