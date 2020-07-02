@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VideoByte/static/css/main.267a978b.chunk.css",
+    "main.css": "/VideoByte/static/css/main.e8cd96cf.chunk.css",
     "main.js": "/VideoByte/static/js/main.6ac678b4.chunk.js",
     "main.js.map": "/VideoByte/static/js/main.6ac678b4.chunk.js.map",
     "runtime-main.js": "/VideoByte/static/js/runtime-main.ea852680.js",
@@ -9,10 +9,10 @@
     "static/js/2.5cbe5139.chunk.js": "/VideoByte/static/js/2.5cbe5139.chunk.js",
     "static/js/2.5cbe5139.chunk.js.map": "/VideoByte/static/js/2.5cbe5139.chunk.js.map",
     "index.html": "/VideoByte/index.html",
-    "precache-manifest.e91b4f6b6a6757411c0d3d4a855b7d0c.js": "/VideoByte/precache-manifest.e91b4f6b6a6757411c0d3d4a855b7d0c.js",
+    "precache-manifest.efae1ae7d107b7e2ba108845867e39e4.js": "/VideoByte/precache-manifest.efae1ae7d107b7e2ba108845867e39e4.js",
     "service-worker.js": "/VideoByte/service-worker.js",
     "static/css/2.391535f3.chunk.css.map": "/VideoByte/static/css/2.391535f3.chunk.css.map",
-    "static/css/main.267a978b.chunk.css.map": "/VideoByte/static/css/main.267a978b.chunk.css.map",
+    "static/css/main.e8cd96cf.chunk.css.map": "/VideoByte/static/css/main.e8cd96cf.chunk.css.map",
     "static/js/2.5cbe5139.chunk.js.LICENSE.txt": "/VideoByte/static/js/2.5cbe5139.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/VideoByte/static/media/fontawesome-webfont.fee66e71.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.ea852680.js",
     "static/css/2.391535f3.chunk.css",
     "static/js/2.5cbe5139.chunk.js",
-    "static/css/main.267a978b.chunk.css",
+    "static/css/main.e8cd96cf.chunk.css",
     "static/js/main.6ac678b4.chunk.js"
   ]
 }
