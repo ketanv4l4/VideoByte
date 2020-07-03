@@ -152,3 +152,18 @@
   .fa-time, .fa-revenue,  .fa-budget {
        line-height: 5px !important; 
   }
+  @media screen and (max-width: 720px) {
+
+   .movieinfo-text h1 {
+    font-size:25px;
+   }
+   .movieinfo-text h3 {
+    font-size: 17px;
+  }
+  
+  .movieinfo-text p {
+    font-size: 15px;
+  }
+ 
+  
+  }

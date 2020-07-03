@@ -64,7 +64,7 @@ class MovieCard extends Component {
     return (
       <div className="MovieCard">
         <SearchBar  callback={this.searchItems} />
-        {this.state.searchTerm ? <h3 style={{ color: '#fff' }}> Search result</h3> : <h3 style={{ color: '#fff' }}> Popular Movies</h3>}
+        {this.state.searchTerm ? <h4 style={{ color: '#fff' }}> Search result</h4> : <h4 style={{ color: '#fff' }}> Popular Movies</h4>}
         <Row>
           {this.state.results.map((movie, key) => (
             <Col lg={3} sm={4} xs={6} key={movie.id}>

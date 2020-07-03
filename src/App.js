@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import { Route, Switch, BrowserRouter,HashRouter } from 'react-router-dom'
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -14,14 +14,14 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/'>
+      <HashRouter basename='/'>
           <Search />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/movie/:id" component={(props) => <MovieDetails {...props} />} />
           </Switch>
           <Footer />
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   );

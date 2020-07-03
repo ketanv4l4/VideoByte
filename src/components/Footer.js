@@ -6,7 +6,7 @@ render() {
 
   return (
       <div className="footer">
-       <p>Designed & Developed by Ketan Vala</p>
+       <p>Developed by Ketan Vala</p>
       </div>
   );
   }

@@ -62,7 +62,7 @@ class DetailMovieCard extends Component {
 							</Grid>
 							<Grid item xs={12} md={7} lg={8} className="movieinfo-text " >
 								<h1>{title}&nbsp;<span>({status})</span></h1>
-								{tagline === "" ? "" : <span><FontAwesome className="fa-revenue" name="tags" size="2x" /> ({tagline}) </span>}
+								{tagline === "" ? "" : <p><FontAwesome className="fa-revenue" name="tags" size="2x" /> ({tagline}) </p>}
 								<h3><FontAwesome className="fa-revenue" name="calendar" size="2x" /> Release date</h3>
 								<p>{release_date}</p>
 								<h3><FontAwesome className="fa-revenue" name="cloud" size="2x" /> Overview</h3>
